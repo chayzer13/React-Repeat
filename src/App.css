@@ -1,0 +1,186 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.brandContainer {
+  flex: 1;
+}
+
+.brand {
+  height: 118px;
+}
+
+.navigation {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.actionButton {
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #F9B640;
+  margin-left: auto; 
+  white-space: nowrap; 
+}
+
+
+.ride{
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.stylizedText{
+  font-style: italic;
+  margin-bottom: 50px;
+  font-size: 48px;
+  color: #22356F;
+}
+
+.description{
+  max-width: 558px;
+  font-size: 24px;
+  color: #22356F;
+}
+
+.rideContainer{
+  flex: 1;
+}
+
+.rideImage{
+  width: 543px;
+  margin-left: 800px;
+  margin-top: -400px;
+}
+
+
+.servicesSection{
+  background-color: #62D0DF;
+  height: 604px;
+}
+
+.offer{
+  font-style: italic;
+  margin-left: 250px;
+  position: relative;
+  top: 150px;
+}
+
+.stylizedHeader{
+  font-size: 36px;
+  color: white;
+  margin-bottom: 27px;
+}
+
+.serviceDescription{
+  font-size: 24px;
+  max-width: 550px;
+  color: white;
+}
+
+.serviceImage{
+  float: right;
+  position: relative;
+  margin-top: -323px;
+}
+
+
+.highlights {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 604px;
+  text-align: center; 
+}
+
+.highlightText{
+  font-style: italic;
+  color: #22356F;
+  font-size: 24px;
+  text-align: left;
+}
+
+
+.rentalSection {
+  display: flex;
+  justify-content: space-between;
+  height: 480px;
+}
+
+.rentalSection div {
+  flex: 1;
+  padding: 40px;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  position: relative;
+}
+
+.rentalSection div:nth-child(1) {
+  background-color: #22356F; 
+}
+
+.rentalSection div:nth-child(2) {
+  background-color: #0052C1; 
+}
+
+.rentalSection div:nth-child(3) {
+  background-color: #76B58B; 
+}
+
+.rentalSection div h2 {
+  position: relative;
+  display: inline-block;
+  padding-top: 70px;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.rentalSection div::before {
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background-color: white;
+}
+
+
+.rentalText{
+  font-style: italic;
+  margin-top: -550px;
+  margin-left: 750px;
+  position: absolute;
+  color: #22356F;
+  font-size: 36px;
+}
